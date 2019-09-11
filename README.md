@@ -4,7 +4,7 @@ A Visual Studio project for developing with the Commander X16 emulator.
 To get up and running:
 * Delete the x16-emulator directory (it's a submodule of my x16-emulator fork, but I don't plan to accept pull requests from others -- make your own to the master branch!)
 * Create a fork of https://github.com/commanderx16/x16-emulator
-* git clone your fork to this directory. This should create a directory named "x16-emulator".
+* git clone your fork to this directory. This should create a directory named "x16-emulator" replacing the one you deleted.
 * Open x16emu.sln
 * Build, edit, whatever, and away you go.
 
