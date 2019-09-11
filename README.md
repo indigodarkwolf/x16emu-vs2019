@@ -7,6 +7,8 @@ To get up and running:
 * Open x16emu.sln
 * Build, edit, whatever, and away you go.
 
+Only the x86 builds are setup. In theory, x64 only needs the SDL2 libs added to Linker > Input > Additional Dependencies, and change the output location and debug working directory. Maybe a few other bits and bobs. Maybe I'll care enough to do it myself at a later point. :P
+
 This outputs to the bin/ directory, as x16emu_Debug.exe and/or as x16emu_Release.exe.
 
 Troublshooting:
