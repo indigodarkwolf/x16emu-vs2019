@@ -60,9 +60,6 @@
     <ClCompile Include="x16-emulator\video.c">
       <Filter>Source Files\x16-emulator</Filter>
     </ClCompile>
-    <ClCompile Include="x16-emulator\petscii.c">
-      <Filter>Source Files\x16-emulator</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="compat\compat.h">
@@ -123,9 +120,6 @@
       <Filter>Source Files\x16-emulator</Filter>
     </ClInclude>
     <ClInclude Include="x16-emulator\video.h">
-      <Filter>Source Files\x16-emulator</Filter>
-    </ClInclude>
-    <ClInclude Include="x16-emulator\petscii.h">
       <Filter>Source Files\x16-emulator</Filter>
     </ClInclude>
   </ItemGroup>

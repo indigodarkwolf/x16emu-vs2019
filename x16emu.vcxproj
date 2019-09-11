@@ -27,7 +27,6 @@
     <ClCompile Include="x16-emulator\loadsave.c" />
     <ClCompile Include="x16-emulator\main.c" />
     <ClCompile Include="x16-emulator\memory.c" />
-    <ClCompile Include="x16-emulator\petscii.c" />
     <ClCompile Include="x16-emulator\ps2.c" />
     <ClCompile Include="x16-emulator\sdcard.c" />
     <ClCompile Include="x16-emulator\via.c" />
@@ -50,7 +49,6 @@
     <ClInclude Include="x16-emulator\glue.h" />
     <ClInclude Include="x16-emulator\loadsave.h" />
     <ClInclude Include="x16-emulator\memory.h" />
-    <ClInclude Include="x16-emulator\petscii.h" />
     <ClInclude Include="x16-emulator\ps2.h" />
     <ClInclude Include="x16-emulator\sdcard.h" />
     <ClInclude Include="x16-emulator\via.h" />
