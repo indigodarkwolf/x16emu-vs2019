@@ -1,5 +1,8 @@
 .vs
 bin/x16emu_*.*
+bin/*.prg
 Debug
 Release
 x16-emulator
+x16emu.args.json
+x16emu.vcxproj.user
