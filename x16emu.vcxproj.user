@@ -3,13 +3,25 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LocalDebuggerWorkingDirectory>$(ProjectDir)x16-bin\</LocalDebuggerWorkingDirectory>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
-    <LocalDebuggerCommandArguments>-debug -scale 2</LocalDebuggerCommandArguments>
-    <RemoteDebuggerCommandArguments>-debug -scale 2</RemoteDebuggerCommandArguments>
+    <LocalDebuggerCommandArguments>-debug -scale 2 -quality nearest</LocalDebuggerCommandArguments>
+    <RemoteDebuggerCommandArguments>-debug -scale 2 -quality nearest</RemoteDebuggerCommandArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_YM2151|Win32'">
+    <LocalDebuggerWorkingDirectory>$(ProjectDir)x16-bin\</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>-debug -scale 2 -quality nearest</LocalDebuggerCommandArguments>
+    <RemoteDebuggerCommandArguments>-debug -scale 2 -quality nearest</RemoteDebuggerCommandArguments>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LocalDebuggerWorkingDirectory>$(ProjectDir)x16-bin\</LocalDebuggerWorkingDirectory>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
-    <LocalDebuggerCommandArguments>-debug -scale 2</LocalDebuggerCommandArguments>
-    <RemoteDebuggerCommandArguments>-debug -scale 2</RemoteDebuggerCommandArguments>
+    <LocalDebuggerCommandArguments>-prg x16-racer.prg -debug -scale 2 -quality nearest</LocalDebuggerCommandArguments>
+    <RemoteDebuggerCommandArguments>-prg x16-racer.prg -debug -scale 2 -quality nearest</RemoteDebuggerCommandArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_YM2151|Win32'">
+    <LocalDebuggerWorkingDirectory>$(ProjectDir)x16-bin\</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>-prg x16-racer.prg -debug -scale 2 -quality nearest</LocalDebuggerCommandArguments>
+    <RemoteDebuggerCommandArguments>-prg x16-racer.prg -debug -scale 2 -quality nearest</RemoteDebuggerCommandArguments>
   </PropertyGroup>
 </Project>

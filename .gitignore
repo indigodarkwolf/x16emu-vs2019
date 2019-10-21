@@ -3,6 +3,8 @@ bin/x16emu_*.*
 bin/*.prg
 Debug
 Release
+Debug_YM2151
+Release_YM2151
 x16-emulator
 x16emu.args.json
 x16emu.vcxproj.user

@@ -7,16 +7,28 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "x16emu", "x16emu.vcxproj", 
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug_YM2151|x64 = Debug_YM2151|x64
+		Debug_YM2151|x86 = Debug_YM2151|x86
 		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
+		Release_YM2151|x64 = Release_YM2151|x64
+		Release_YM2151|x86 = Release_YM2151|x86
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18EB8FC6-F4D8-473D-BE01-5D511A6DD874}.Debug_YM2151|x64.ActiveCfg = Debug_YM2151|x64
+		{18EB8FC6-F4D8-473D-BE01-5D511A6DD874}.Debug_YM2151|x64.Build.0 = Debug_YM2151|x64
+		{18EB8FC6-F4D8-473D-BE01-5D511A6DD874}.Debug_YM2151|x86.ActiveCfg = Debug_YM2151|Win32
+		{18EB8FC6-F4D8-473D-BE01-5D511A6DD874}.Debug_YM2151|x86.Build.0 = Debug_YM2151|Win32
 		{18EB8FC6-F4D8-473D-BE01-5D511A6DD874}.Debug|x64.ActiveCfg = Debug|x64
 		{18EB8FC6-F4D8-473D-BE01-5D511A6DD874}.Debug|x64.Build.0 = Debug|x64
 		{18EB8FC6-F4D8-473D-BE01-5D511A6DD874}.Debug|x86.ActiveCfg = Debug|Win32
 		{18EB8FC6-F4D8-473D-BE01-5D511A6DD874}.Debug|x86.Build.0 = Debug|Win32
+		{18EB8FC6-F4D8-473D-BE01-5D511A6DD874}.Release_YM2151|x64.ActiveCfg = Release_YM2151|x64
+		{18EB8FC6-F4D8-473D-BE01-5D511A6DD874}.Release_YM2151|x64.Build.0 = Release_YM2151|x64
+		{18EB8FC6-F4D8-473D-BE01-5D511A6DD874}.Release_YM2151|x86.ActiveCfg = Release_YM2151|Win32
+		{18EB8FC6-F4D8-473D-BE01-5D511A6DD874}.Release_YM2151|x86.Build.0 = Release_YM2151|Win32
 		{18EB8FC6-F4D8-473D-BE01-5D511A6DD874}.Release|x64.ActiveCfg = Release|x64
 		{18EB8FC6-F4D8-473D-BE01-5D511A6DD874}.Release|x64.Build.0 = Release|x64
 		{18EB8FC6-F4D8-473D-BE01-5D511A6DD874}.Release|x86.ActiveCfg = Release|Win32
