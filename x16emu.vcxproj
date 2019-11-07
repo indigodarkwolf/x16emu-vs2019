@@ -43,6 +43,7 @@
     <ClCompile Include="x16-emulator\extern\src\ym2151.c" />
     <ClCompile Include="x16-emulator\javascript_interface.c" />
     <ClCompile Include="x16-emulator\joystick.c" />
+    <ClCompile Include="x16-emulator\keyboard.c" />
     <ClCompile Include="x16-emulator\loadsave.c" />
     <ClCompile Include="x16-emulator\main.c" />
     <ClCompile Include="x16-emulator\memory.c" />
@@ -72,6 +73,7 @@
     <ClInclude Include="x16-emulator\extern\src\ym2151.h" />
     <ClInclude Include="x16-emulator\glue.h" />
     <ClInclude Include="x16-emulator\joystick.h" />
+    <ClInclude Include="x16-emulator\keyboard.h" />
     <ClInclude Include="x16-emulator\loadsave.h" />
     <ClInclude Include="x16-emulator\memory.h" />
     <ClInclude Include="x16-emulator\ps2.h" />

@@ -90,6 +90,9 @@
     <ClCompile Include="x16-emulator\extern\src\ym2151.c">
       <Filter>Source Files\x16-emulator\extern\src</Filter>
     </ClCompile>
+    <ClCompile Include="x16-emulator\keyboard.c">
+      <Filter>Source Files\x16-emulator</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="compat\compat.h">
@@ -178,6 +181,9 @@
     </ClInclude>
     <ClInclude Include="x16-emulator\extern\include\gif.h">
       <Filter>Source Files\x16-emulator\extern\include</Filter>
+    </ClInclude>
+    <ClInclude Include="x16-emulator\keyboard.h">
+      <Filter>Source Files\x16-emulator</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
