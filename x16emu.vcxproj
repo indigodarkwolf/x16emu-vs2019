@@ -52,7 +52,6 @@
     <ClCompile Include="x16-emulator\ps2.c" />
     <ClCompile Include="x16-emulator\rendertext.c" />
     <ClCompile Include="x16-emulator\sdcard.c" />
-    <ClCompile Include="x16-emulator\spi.c" />
     <ClCompile Include="x16-emulator\vera_pcm.c" />
     <ClCompile Include="x16-emulator\vera_psg.c" />
     <ClCompile Include="x16-emulator\vera_spi.c" />
@@ -84,9 +83,9 @@
     <ClInclude Include="x16-emulator\memory.h" />
     <ClInclude Include="x16-emulator\ps2.h" />
     <ClInclude Include="x16-emulator\rendertext.h" />
+    <ClInclude Include="x16-emulator\rom_labels.h" />
     <ClInclude Include="x16-emulator\rom_symbols.h" />
     <ClInclude Include="x16-emulator\sdcard.h" />
-    <ClInclude Include="x16-emulator\spi.h" />
     <ClInclude Include="x16-emulator\utf8.h" />
     <ClInclude Include="x16-emulator\utf8_encode.h" />
     <ClInclude Include="x16-emulator\vera_pcm.h" />
@@ -244,11 +243,15 @@
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>.\vendor\SDL2-2.0.10\include;.\compat;.\x16-emulator\extern\include;.\x16-emulator\extern\src</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>compat.h</ForcedIncludeFiles>
+      <AdditionalOptions>
+      </AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies);vendor\SDL2-2.0.10\lib\x86\SDL2.lib;vendor\SDL2-2.0.10\lib\x86\SDL2main.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_YM2151|Win32'">
@@ -262,11 +265,15 @@
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>.\vendor\SDL2-2.0.10\include;.\compat;.\x16-emulator\extern\include;.\x16-emulator\extern\src</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>compat.h</ForcedIncludeFiles>
+      <AdditionalOptions>
+      </AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies);vendor\SDL2-2.0.10\lib\x86\SDL2.lib;vendor\SDL2-2.0.10\lib\x86\SDL2main.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -312,6 +319,8 @@
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>.\vendor\SDL2-2.0.10\include;.\compat;.\x16-emulator\extern\include;.\x16-emulator\extern\src</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>compat.h</ForcedIncludeFiles>
+      <AdditionalOptions>
+      </AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -320,6 +329,9 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies);vendor\SDL2-2.0.10\lib\x86\SDL2.lib;vendor\SDL2-2.0.10\lib\x86\SDL2main.lib</AdditionalDependencies>
       <Profile>true</Profile>
+      <AdditionalOptions>/PROFILE</AdditionalOptions>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_YM2151|Win32'">
@@ -335,6 +347,8 @@
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>.\vendor\SDL2-2.0.10\include;.\compat;.\x16-emulator\extern\include;.\x16-emulator\extern\src</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>compat.h</ForcedIncludeFiles>
+      <AdditionalOptions>
+      </AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -343,6 +357,8 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies);vendor\SDL2-2.0.10\lib\x86\SDL2.lib;vendor\SDL2-2.0.10\lib\x86\SDL2main.lib</AdditionalDependencies>
       <Profile>true</Profile>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">

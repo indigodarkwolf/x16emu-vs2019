@@ -72,9 +72,6 @@
     <ClCompile Include="x16-emulator\sdcard.c">
       <Filter>Source Files\x16-emulator</Filter>
     </ClCompile>
-    <ClCompile Include="x16-emulator\spi.c">
-      <Filter>Source Files\x16-emulator</Filter>
-    </ClCompile>
     <ClCompile Include="x16-emulator\vera_pcm.c">
       <Filter>Source Files\x16-emulator</Filter>
     </ClCompile>
@@ -170,9 +167,6 @@
     <ClInclude Include="x16-emulator\sdcard.h">
       <Filter>Source Files\x16-emulator</Filter>
     </ClInclude>
-    <ClInclude Include="x16-emulator\spi.h">
-      <Filter>Source Files\x16-emulator</Filter>
-    </ClInclude>
     <ClInclude Include="x16-emulator\utf8.h">
       <Filter>Source Files\x16-emulator</Filter>
     </ClInclude>
@@ -192,6 +186,9 @@
       <Filter>Source Files\x16-emulator</Filter>
     </ClInclude>
     <ClInclude Include="x16-emulator\video.h">
+      <Filter>Source Files\x16-emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="x16-emulator\rom_labels.h">
       <Filter>Source Files\x16-emulator</Filter>
     </ClInclude>
   </ItemGroup>
